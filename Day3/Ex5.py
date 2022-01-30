@@ -1,5 +1,4 @@
 # 🚨 Don't change the code below 👇
-import itertools
 
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
