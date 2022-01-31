@@ -1,9 +1,16 @@
-# Heads or tails
-import random
+# Remember to use the random module
+# Hint: Remember to import the random module here at the top of the file. 🎲
 
-end = 1000
-result = random.randint(1,end)
-if result < end / 2:
-    print("Result of the coin toss is: HEADS")
+# 🚨 Don't change the code below 👇
+test_seed = int(input("Create a seed number: "))
+random.seed(test_seed)
+# 🚨 Don't change the code above 👆 It's only for testing your code.
+
+# Write the rest of your code below this line 👇
+# Heads or tails
+
+result = random.randint(0, 1)
+if result == 1:
+    print("Heads")
 else:
-    print("Result of the coin toss is: TAILS")
+    print("Tails")
